@@ -7,7 +7,6 @@ Data is synchronized with the server every 12 hours.
 The app retrieves the movie data from [The Movie DB](https://www.themoviedb.org/documentation/api), and it requires your API key (which you can generate on [The Movie DB](https://www.themoviedb.org/documentation/api)) in order to run it. Once you obtain an API key, replace MyMoviesApiKey with your API key in the build.gradle file.
 
     buildTypes.each {
-
     	it.buildConfigField 'String', 'MOVIES_API_KEY', MyMoviesApiKey
     }
     
